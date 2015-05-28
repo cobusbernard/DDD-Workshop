@@ -8,6 +8,8 @@ properties{
 	$slnFile = "$srcDir\DDD-Sample.sln"
 }
 
+task Default -depends Clean, CommonAssemblyInfo, Build, Test 
+
 task Clean {
 	msbuild $slnFile /m /t:Clean /p:VisualStudioVersion=12.0
 	pushd src
