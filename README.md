@@ -23,11 +23,11 @@ To successfully run the `Iteration zero` project we assume that your system is p
 - Postman REST client for Chrome (or equivalent)
 
 ##How to get started
-Clone the repository from GitHub [https://github.com/gnschenker/DDD-Workshop](https://github.com/gnschenker/DDD-Workshop) to your local computer. 
+Clone the repository from GitHub [https://github.com/ClearMeasure/DDD-Workshop](https://github.com/ClearMeasure/DDD-Workshop) to your local computer. 
 
 Open a Powershell console and navigate to the folder to which you cloned the repository. To build the solution and run all tests we are using a Powershell build file that uses [Psake](https://github.com/psake/psake). 
 
-Run the command `.\psake\psake.ps1 .\build.ps1 Test`
+Run the command `click_to_build.bat`
 
 ##DDD - Implementation
 In this sample we use the following implementation
