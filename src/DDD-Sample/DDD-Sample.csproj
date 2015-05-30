@@ -102,6 +102,10 @@
   <ItemGroup>
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="Contracts\Commands\SampleCommands.cs" />
+    <Compile Include="Domain\AccountHolder.cs" />
+    <Compile Include="Domain\Applicant.cs" />
+    <Compile Include="Domain\Application.cs" />
+    <Compile Include="Domain\CreditCard.cs" />
     <Compile Include="Domain\SamplesApplicationService.cs" />
     <Compile Include="Infrastructure\Configuration\Settings.cs" />
     <Compile Include="Infrastructure\Configuration\SettingsBase.cs" />
